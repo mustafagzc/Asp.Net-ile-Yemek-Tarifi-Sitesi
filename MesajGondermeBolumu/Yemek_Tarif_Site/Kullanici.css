@@ -1,0 +1,19 @@
+﻿
+a:link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+a:hover {
+    font-size: 18px;
+    color: yellow;
+}
+
+.ta5 {
+    border: 2px solid #765942;
+    border-radius: 10px;
+    height: 60px;
+    width: 230px;
+}
