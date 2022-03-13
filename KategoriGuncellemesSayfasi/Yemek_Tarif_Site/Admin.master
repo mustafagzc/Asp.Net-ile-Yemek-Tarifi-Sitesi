@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Kullanici.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1 {
+            height: 588px;
+        }
+
+        .auto-style7 {
+            width: 699px;
+            height: 20px;
+        }
+
+        .auto-style8 {
+            height: 150px;
+            width: 700px;
+            text-align: center;
+        }
+
+        .auto-style10 {
+            width: 700px;
+            height: auto;
+        }
+
+        .auto-style11 {
+            width: 460px;
+            height: auto;
+            float: left;
+        }
+
+        .auto-style13 {
+            width: 191px;
+            height: auto;
+            float: left;
+            text-align: left;
+        }
+
+        .auto-style14 {
+            width: auto;
+            height:auto;
+        }
+        .auto-style15 {
+            text-align: center;
+        }
+        .auto-style16 {
+            font-size: large;
+        }
+        .auto-style17 {
+            height: 26px;
+            width: 194px;
+        }
+        .auto-style18 {
+            width: 194px;
+        }
+    </style>
+</head>
+<body style="background-color: white;">
+    <form id="form1" runat="server">
+        <div style="margin-left: 410px; background-color: #33CCFF;" class="auto-style8">&nbsp;<asp:Image ID="Image1" runat="server" Height="164px" ImageUrl="~/images/slogin.png" Width="376px" />
+        </div>
+
+        <div style="margin-left: 410px;" class="auto-style7">&nbsp;<br />
+        </div>
+        <%--space div--%>
+
+        <%--space div--%>
+        <div style="margin-left: 410px;  width:auto; height: auto; " class="auto-style10">
+
+            <div style="margin-left: 410px; background-color: #33CCFF; margin-left: 0px;" class="auto-style13">
+                <div class="auto-style15">
+                    <strong><span class="auto-style16">MENÜLER</span></strong><br />
+                </div>
+                <table class="auto-style14"> 
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><em><strong><a href="KategoriAdmin.aspx">KATEGORİLER</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></em></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><strong><em>YEMEKLER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><strong><em>YORUMLAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><strong><em>MESAJLAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><strong><em>GÜNÜN YEMEĞİ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style18" style="border: thin solid #808000"><strong><em>ÖNERİLER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style17" style="border: thin solid #808000"><strong><em>HAKKIMIZDA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin-left: 410px; background-color: #33CCFF; margin-left: 50px; color: #000000;" class="auto-style11">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>
+
+
+
